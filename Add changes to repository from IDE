@@ -1,0 +1,4 @@
+git status      # Check the status of the repo
+git add .       # Add all changes to the staging area
+git commit -m "Your commit message"  # Commit changes with a message
+git push origin main  # Push changes to the main branch on GitHub
