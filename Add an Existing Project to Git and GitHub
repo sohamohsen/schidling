@@ -1,0 +1,39 @@
+1. Initialize Git in Your Project Folder
+For terminal (Linux/macOS/Windows Command Prompt):
+Open the terminal and navigate to your project folder:
+bash
+Copy code
+cd /path/to/your/project
+Initialize a Git repository in the folder:
+bash
+Copy code
+git init
+2. Add All Files to Git
+Add all files in the folder to the staging area:
+bash
+Copy code
+git add .
+3. Commit Your Changes
+Commit the files you added with an appropriate commit message:
+bash
+Copy code
+git commit -m "Initial commit"
+4. Create a Repository on GitHub
+Navigate to GitHub.
+Click on the + icon in the upper right corner and select New repository.
+Name your repository (e.g., your-project-name) and choose whether it's public or private.
+Do not initialize the repository with a README (since you already have files in your project folder).
+Click Create repository.
+5. Add the Remote Repository URL
+Copy the repository URL from GitHub (it will look like https://github.com/yourusername/your-repository.git).
+Add the remote to your local repository:
+bash
+Copy code
+git remote add origin https://github.com/yourusername/your-repository.git
+6. Push Your Code to GitHub
+Push the local repository to GitHub:
+bash
+Copy code
+git push -u origin main
+7. Verify the Changes
+Go to your GitHub repository page, and you should see all your project files uploaded.
