@@ -1,0 +1,15 @@
+#!/bin/bash
+# Initialize the git repository
+git init
+
+# Add all files to the staging area
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Add the remote GitHub repository URL (replace with your own repo URL)
+git remote add origin https://github.com/yourusername/yourrepository.git
+
+# Push to GitHub
+git push -u origin main
